@@ -1,6 +1,7 @@
 package com.cuttleguy.flatsaver;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -13,6 +14,7 @@ import org.slf4j.Logger;
 @Mod(FlatSaver.MOD_ID)
 public class FlatSaver
 {
+
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "flatsaver";
     // Directly reference a slf4j logger
